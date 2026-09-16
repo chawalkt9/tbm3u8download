@@ -11,7 +11,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Aapka HLS Worker Link
-TARGET_M3U8_URL = "https://amzon.tanmay1862005.workers.dev/?hls=https%3A%2F%2F1024tera.com%2Fshare%2Fstreaming.m3u8%3Fuk%3D4400206356182%26shareid%3D10694329302%26type%3DM3U8_AUTO_480%26fid%3D1005502011886555%26sign%3D0ce3605cd311cc0c456522e91e33ecee0739333e%26timestamp%3D1789585592%26jsToken%3D49443FB45E8AE97BFE3AE9E7A4A08458383052007109AD96EA6716F7D50084C4E235A5A51CBE9468678FDD60C92EDE3634EAA373A5181342BDC829BB917AF753%26esl%3D1%26isplayer%3D1%26ehps%3D1%26clienttype%3D0%26app_id%3D250528%26web%3D1%26channel%3Ddubox"
+TARGET_M3U8_URL = "https://amzon.ktnetwork002.workers.dev/?hls=https%3A%2F%2F1024tera.com%2Fshare%2Fstreaming.m3u8%3Fuk%3D4400357464123%26shareid%3D68683755866%26type%3DM3U8_FLV_264_480%26fid%3D202323108919207%26sign%3Df06cc764fa758d062d8b7c8fecea90dd1137cce1%26timestamp%3D1757999473%26clienttype%3D0%26channel%3Ddubox"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello! `/send` command bhejein rocket speed se video download karne ke liye.")
